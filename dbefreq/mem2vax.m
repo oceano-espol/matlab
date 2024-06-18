@@ -1,0 +1,1 @@
+function mem2vax(varname)%Function MEM2VAX(varname)%   Save a workspace variable to VAX directoryeval(['save enfield7:' varname '.dat varname -ascii'])

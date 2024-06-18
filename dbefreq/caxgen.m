@@ -1,0 +1,1 @@
+function cax = caxgen(x)%Function cax = caxgen(x)%  Generate the common color pallete limits for the columns of X.cmin = min(min(x));cmax = max(max(x));cax  = [cmin,cmax];

@@ -1,0 +1,1 @@
+function [n]=histxh(y,x,nbins)%[n]=histxh(y,x,nbins) -- Subroutine required by HISTX %    (accelerated histogram) Written by hanso@dna.lth.seif (nbins==1)  n=length(y);else  i=fix(nbins/2);  n1=histxh(y(y<x(i)),x(1:i),i);  n2=histxh(y(y>=x(i)),x(i+1:nbins),nbins-i);  n=[n1,n2];end;

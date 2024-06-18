@@ -1,0 +1,1 @@
+function [varname] = vax2mem(fname)%Function [varname] = VAX2MEM('datafile')%   Load ascii file from VAX to memoryeval(['load enfield7:' fname])jj=find(fname=='.');eval(['varname=' fname(1:jj-1) ';'])

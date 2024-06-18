@@ -1,0 +1,1 @@
+function z = cth%Function  Z = CTH -- Construct a Cold-to-Hot color pallettez = flipud(hsv(256));z = z(fix(32:3.5:255),:);
